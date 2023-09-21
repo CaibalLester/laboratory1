@@ -1,0 +1,175 @@
+CRITICAL - 2023-09-21 11:21:33 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:22:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:23:22 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:29:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProductController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:32:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProductController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:35:43 --> Cannot declare class App\Models\ProductModel, because the name is already in use
+in APPPATH\Models\ProductModel.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-21 11:36:58 --> Cannot declare class App\Models\ProductModel, because the name is already in use
+in APPPATH\Models\ProductModel.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-21 11:36:59 --> Cannot declare class App\Models\ProductModel, because the name is already in use
+in APPPATH\Models\ProductModel.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-21 11:37:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProductController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 11:40:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProductController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:19:26 --> Undefined variable $thisr
+in APPPATH\Controllers\ProductController.php on line 19.
+ 1 APPPATH\Controllers\ProductController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thisr', 'C:\\laragon\\www\\laboratory1\\app\\Controllers\\ProductController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:36:04 --> Cannot access protected property App\Models\ProductModel::$table
+in APPPATH\Controllers\ProductController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:55:12 --> Cannot redeclare App\Models\ProductModel::$DBGroup
+in APPPATH\Models\ProductModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-21 12:59:59 --> Cannot access protected property App\Models\ProductModel::$table
+in APPPATH\Controllers\ProductController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:01:06 --> Call to undefined method App\Models\ProductModel::setDBGroup
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(38): CodeIgniter\Model->__call('setDBGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:02:16 --> Call to undefined method App\Models\ProductModel::setDBGroup
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(38): CodeIgniter\Model->__call('setDBGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:02:52 --> CodeIgniter\Model::__construct(): Argument #1 ($db) must be of type ?CodeIgniter\Database\ConnectionInterface, string given, called in C:\laragon\www\laboratory1\app\Controllers\ProductController.php on line 43
+in SYSTEMPATH\Model.php on line 146.
+ 1 APPPATH\Controllers\ProductController.php(43): CodeIgniter\Model->__construct('default1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 14:18:54 --> Call to a member function delete() on array
+in APPPATH\Controllers\ProductController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 14:19:23 --> Call to a member function delete() on array
+in APPPATH\Controllers\ProductController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 14:19:25 --> Call to a member function delete() on array
+in APPPATH\Controllers\ProductController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 14:20:47 --> Class "App\Controllers\Product" not found
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 14:37:41 --> Undefined variable $pro
+in APPPATH\Views\products.php on line 11.
+ 1 APPPATH\Views\products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro', 'C:\\laragon\\www\\laboratory1\\app\\Views\\products.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\laboratory1\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\ProductController.php(74): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 15:02:39 --> Undefined array key "Producliescription"
+in APPPATH\Views\products.php on line 63.
+ 1 APPPATH\Views\products.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Producliescription"', 'C:\\laragon\\www\\laboratory1\\app\\Views\\products.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\laboratory1\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\ProductController.php(81): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->CaibalLester()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')

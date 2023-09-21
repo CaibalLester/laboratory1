@@ -20,6 +20,7 @@ class Database extends Config
      * use if no other is specified.
      */
     public string $defaultGroup = 'default';
+    public string $defaultGroup1 = 'default1';
 
     /**
      * The default database connection.
@@ -27,9 +28,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
+        'username'     => 'root',
         'password'     => '',
-        'database'     => '',
+        'database'     => 'laboratory',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -45,6 +46,29 @@ class Database extends Config
         'numberNative' => false,
     ];
 
+    public array $default1 = [
+        'DSN'          => '',
+        'hostname'     => 'localhost',
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'laboratory',
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8',
+        'DBCollat'     => 'utf8_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 3306,
+        'numberNative' => false,
+    ];
+
+    
+
     /**
      * This database connection is used when
      * running PHPUnit database tests.
@@ -52,11 +76,11 @@ class Database extends Config
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
-        'username'    => '',
+        'username'    => 'root',
         'password'    => '',
         'database'    => ':memory:',
         'DBDriver'    => 'SQLite3',
-        'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
+        'DBPrefix'    => 'db_',  
         'pConnect'    => false,
         'DBDebug'     => true,
         'charset'     => 'utf8',
@@ -75,11 +99,12 @@ class Database extends Config
     {
         parent::__construct();
 
-        // Ensure that we always set the database group to 'tests' if
-        // we are currently running an automated test suite, so that
-        // we don't overwrite live data on accident.
+
         if (ENVIRONMENT === 'testing') {
             $this->defaultGroup = 'tests';
+        }
+        if (ENVIRONMENT === 'testing') {
+            $this->defaultGroup1 = 'tests';
         }
     }
 }
