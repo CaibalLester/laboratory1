@@ -42,11 +42,9 @@ class ProductController extends BaseController
             'ProductQuantity' => $this->request->getVar('ProductQuantity'),
             'ProductPrice' => $this->request->getVar('ProductPrice'),
         ];
-
         $categoryData = [
             'ProductCategory' => $this->request->getVar('ProductCategory'),
         ];
-
             if($id!= null)
                 {
                     $this->product->set($productData)->where('id', $id)->update();
@@ -54,8 +52,27 @@ class ProductController extends BaseController
                 }
                 else{
                     $this->product->insert($productData);
+                    $this->category->insert($categoryData);
+                }
+                return redirect()->to('/product');
+    }
 
-            
+    public function submit()
+    {
+        $id =$_POST['id'];
+        $productData = [
+            'ProductCategory' => $this->request->getVar('ProductCategory'),
+        ];
+        $categoryData = [
+            'ProductCategory' => $this->request->getVar('ProductCategory'),
+        ];
+            if($id!= null)
+                {
+                    $this->product->set($productData)->where('id', $id)->update();
+                    $this->category->set($categoryData)->where('id', $id)->update();
+                }
+                else{
+                    $this->product->insert($productData);
                     $this->category->insert($categoryData);
                 }
                 return redirect()->to('/product');
